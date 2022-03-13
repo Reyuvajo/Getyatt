@@ -8,7 +8,7 @@ loginButton.addEventListener("click", (e) => {
     const password = loginForm.password.value;
 
     if (username === "test" && password === "test") {
-        window.open("404.html","_self");
+        window.open("https://reyuvajo.github.io/Getyatt/","_self");
         location.reload();
     } else {
         loginErrorMsg.style.opacity = 1;
